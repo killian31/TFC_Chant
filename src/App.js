@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.css'; // assuming you created this file in the src folder
 import './SearchBar.css';
-import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { useState } from "react";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import './Popup.css'
