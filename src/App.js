@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'; // assuming you created this file in the src folder
-import SearchBar from './SearchBar';
+import './SearchBar.css';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -10,32 +10,8 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import './Popup.css'
 
-const videoList = [
-  {
-    videoUrl: "https://www.youtube.com/embed/VIDEO_ID",
-    lyrics: "Lyrics of the first video"
-  },
-  {
-    videoUrl: "https://www.youtube.com/embed/VIDEO_ID",
-    lyrics: "Lyrics of the second video"
-  },
-  {
-    videoUrl: "https://www.youtube.com/embed/VIDEO_ID",
-    lyrics: "Lyrics of the third video"
-  }
-];
 
 function App() {
-  const [showPopup, setShowPopup] = useState(false);
-  const [videoUrl, setVideoUrl] = useState("");
-  const [lyrics, setLyrics] = useState("");
-  const handleRandomVideo = () => {
-    const randomIndex = Math.floor(Math.random() * videoList.length);
-    const randomVideo = videoList[randomIndex];
-    setVideoUrl(randomVideo.videoUrl);
-    setLyrics(randomVideo.lyrics);
-    setShowPopup(true);
-  };
   return (
     <div className="App" >
         <div className="container">
