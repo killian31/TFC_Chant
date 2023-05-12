@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TFC_Chant/static/css/main.9db8bfea.css",
+    "main.js": "/TFC_Chant/static/js/main.0dcd0c58.js",
+    "static/js/787.f3586209.chunk.js": "/TFC_Chant/static/js/787.f3586209.chunk.js",
+    "static/media/tfc-background.jpg": "/TFC_Chant/static/media/tfc-background.d5320d39d41367c0a747.jpg",
+    "index.html": "/TFC_Chant/index.html",
+    "main.9db8bfea.css.map": "/TFC_Chant/static/css/main.9db8bfea.css.map",
+    "main.0dcd0c58.js.map": "/TFC_Chant/static/js/main.0dcd0c58.js.map",
+    "787.f3586209.chunk.js.map": "/TFC_Chant/static/js/787.f3586209.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db8bfea.css",
+    "static/js/main.0dcd0c58.js"
+  ]
+}
